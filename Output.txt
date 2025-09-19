@@ -1,0 +1,284 @@
+"C:\Program Files\Java\jdk-25\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.1.4.1\lib\idea_rt.jar=53661" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath D:\PROJECTS_INTELLIJ\OrderManagementSystem\target\classes oms.MainMenuApp
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 2
+--- All Items ---
+No items in the order.
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 1
+Enter Item ID: 101
+Enter Item Name: Books
+Enter Price: 150
+Item added successfully.
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 1
+Enter Item ID: 102
+Enter Item Name: Pens
+Enter Price: 50
+Item added successfully.
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 1
+Enter Item ID: 103
+Enter Item Name: Laptop
+Enter Price: 75000
+Item added successfully.
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 2
+--- All Items ---
+Item{itemId=101, itemName='Books', price=150.0}
+Item{itemId=102, itemName='Pens', price=50.0}
+Item{itemId=103, itemName='Laptop', price=75000.0}
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 5
+Enter Item Name to search: Laptop
+Found: Item{itemId=103, itemName='Laptop', price=75000.0}
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 6
+--- Items Sorted by Name (Comparator) ---
+Item{itemId=101, itemName='Books', price=150.0}
+Item{itemId=103, itemName='Laptop', price=75000.0}
+Item{itemId=102, itemName='Pens', price=50.0}
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 7
+--- Items Sorted by Price (Comparator) ---
+Item{itemId=102, itemName='Pens', price=50.0}
+Item{itemId=101, itemName='Books', price=150.0}
+Item{itemId=103, itemName='Laptop', price=75000.0}
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 8
+--- Items Sorted by Name (Loop) ---
+Item{itemId=101, itemName='Books', price=150.0}
+Item{itemId=103, itemName='Laptop', price=75000.0}
+Item{itemId=102, itemName='Pens', price=50.0}
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 9
+--- Items Sorted by Price (Loop) ---
+Item{itemId=102, itemName='Pens', price=50.0}
+Item{itemId=101, itemName='Books', price=150.0}
+Item{itemId=103, itemName='Laptop', price=75000.0}
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 3
+Enter Item ID to update: 103
+Enter new Name: Laptop
+Enter new Price: 80000
+Item updated.
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 2
+--- All Items ---
+Item{itemId=101, itemName='Books', price=150.0}
+Item{itemId=102, itemName='Pens', price=50.0}
+Item{itemId=103, itemName='Laptop', price=80000.0}
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 1
+Enter Item ID: 104
+Enter Item Name: Knife
+Enter Price: 120
+Item added successfully.
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 2
+--- All Items ---
+Item{itemId=101, itemName='Books', price=150.0}
+Item{itemId=102, itemName='Pens', price=50.0}
+Item{itemId=103, itemName='Laptop', price=80000.0}
+Item{itemId=104, itemName='Knife', price=120.0}
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 4
+Enter Item ID to delete: 104
+Item deleted.
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 2
+--- All Items ---
+Item{itemId=101, itemName='Books', price=150.0}
+Item{itemId=102, itemName='Pens', price=50.0}
+Item{itemId=103, itemName='Laptop', price=80000.0}
+
+==== Order Management Menu ====
+1. Add Item
+2. View All Items
+3. Update Item
+4. Delete Item
+5. Search Item by Name
+6. Sort Items by Name by Comparator
+7. Sort Items by Price by Comparator
+8. Sort Items by Name by Loop
+9. Sort Items by Price by Loop 
+0. Exit
+Enter choice: 0
+Exiting...
+
+Process finished with exit code 0
